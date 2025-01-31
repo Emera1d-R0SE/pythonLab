@@ -4,5 +4,3 @@ def outer_function():
     print("a =", a)
 outer_function()
 print("global value of a =", a)
-a = 20
-global value of a = 20
