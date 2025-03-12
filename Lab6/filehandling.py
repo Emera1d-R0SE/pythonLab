@@ -11,7 +11,15 @@ with open("file.txt", "r") as f:
     print("Line2: ", f.readlines(), end="\n")
 print(" ")
 
-print("mode3 (all line sa sa list)")
+print("mode3 (all line as a list)")
 with open("file.txt","r") as f:
     print(f.readlines())
+print("")
+
+
+print("mode4 (splits the words)")
+with open("file.txt","r") as f:
+    #print(f.readlines())
+    for line in f:
+        print(line.split(" "))
 print("")
