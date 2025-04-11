@@ -17,11 +17,3 @@ print("\nAnalysis of Employee Experience:")
 print(f"Mean Experience: {experience_mean}")
 print(f"Median Experience: {experience_median}")
 print(f"Standard Deviation of Experience: {experience_std}")
-
-# Step 4: Visualize the distribution of experience using a histogram
-plt.hist(df['YearsExperience'], bins=10, color='skyblue', edgecolor='black')
-plt.title('Distribution of Employee Experience')
-plt.xlabel('Years of Experience')
-plt.ylabel('Frequency')
-plt.grid(True)
-plt.show()
